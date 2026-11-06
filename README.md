@@ -47,7 +47,8 @@ For Google Gemini, create a `.env` file at the repository root:
 GOOGLE_API_KEY=your_api_key
 ```
 
-Do not commit `.env`; `.env.example` may be committed with placeholder values.
+You can copy `.env.example` to `.env` and replace the placeholder with your key.
+Do not commit `.env`; only the placeholder `.env.example` belongs in Git.
 If an Ollama model named in a notebook is not available in your Ollama
 installation, pull that model or change the notebook's model name to one you
 have installed.
