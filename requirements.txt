@@ -1,0 +1,20 @@
+# Notebook runtime
+jupyter
+ipykernel
+
+# LangChain integrations used by the notebooks
+langchain
+langchain-classic
+langchain-community
+langchain-chroma
+langchain-ollama
+langchain-google-genai
+langchain-text-splitters
+
+# PDF loading and Google model credentials
+unstructured[pdf]
+python-dotenv
+
+# Browser automation notebook
+playwright
+nest-asyncio

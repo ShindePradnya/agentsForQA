@@ -14,3 +14,7 @@ __pycache__/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Generated logs and vector databases
+*.log
+qa_db/
